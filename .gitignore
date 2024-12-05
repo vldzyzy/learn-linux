@@ -1,0 +1,43 @@
+# 忽略 Visual Studio Code 相关文件
+.vscode/
+
+# 其他
+storage/
+ceshi/
+
+# 忽略编译生成的文件
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.lib
+*.pdb
+
+# 忽略 CMake 生成的文件
+CMakeFiles/
+CMakeCache.txt
+
+# 忽略 Makefile 生成的文件
+Makefile
+
+# 忽略 IDE 或编辑器生成的临时文件
+*.swp
+*.swo
+*.DS_Store
+
+# 忽略 Python 编译缓存
+__pycache__/
+*.pyc
+
+# 忽略 Node.js 项目中的 node_modules
+node_modules/
+
+# 忽略 Maven 项目中的目标文件
+target/
+
+# 忽略 Gradle 项目中的构建文件
+build/
+
+# 忽略 Docker 构建缓存
+.dockerenv
